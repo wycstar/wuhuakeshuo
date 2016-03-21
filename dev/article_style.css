@@ -1,0 +1,140 @@
+.post{
+    display: block;
+    height: auto;
+    padding: 40px 30px 20px 30px;
+}
+
+.post > p{
+    font-size: 17px;
+    line-height: 1.73;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post > img{
+    display: block;
+    margin:20px auto;
+    width: 700px;
+}
+
+.block-title{
+    display: inline;
+    font-size: 28px;
+    color:#22A386;
+}
+
+.post-title a:hover{
+    color: #FF9900;
+}
+
+.post-title-arrow{
+    position: relative;
+    top:5px;
+    display: inline-block;
+    padding: 0 7px;
+    width: auto;
+    background-color: #777;
+    color: white;
+    line-height: 28px;
+    height: 28px;
+    vertical-align: top;
+}
+
+.post-title-triangle{
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    width:0;
+    height:0;
+    border-width:6px 0px 6px 6px;
+    border-style:solid;
+    border-color:transparent transparent transparent #777;
+}
+
+.post-detail{
+    color:#777;
+    font-size: 14px;
+}
+
+.post-detail p{
+    display: inline-block;
+    position: relative;
+    top:-1px;
+    left: 3px;
+}
+
+.post-alert{
+    border: 1px solid #EEE;
+    border-left: 5px solid #CE4844;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.post-tag{
+    position: relative;
+    font-size: 12px;
+    color: #333;
+}
+
+.post-tag >a:nth-child(5n+1){
+    background-color: #428BCA;
+}
+
+.post-tag >a:nth-child(5n+2){
+    background-color: #5CB85C;
+}
+
+.post-tag >a:nth-child(5n+3){
+    background-color: #D9534F;
+}
+
+.post-tag >a:nth-child(5n+4){
+    background-color: #F0AD4E;
+}
+
+.post-tag >a:nth-child(5n){
+    background-color: #4A4A4A;
+}
+
+.post-tag >a:link{
+    display: inline-block;
+    padding: 2px 7px 2px 7px;
+    color: #eee;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.post-tag >a:visited{
+    opacity: 0.8;
+    color: #eee;
+}
+
+.post-tag >a:hover{
+    opacity: 1.0;
+    color: white;
+}
+
+.post-tag >a:hover{
+    opacity: 1.0;
+    color: white;
+}
+
+.content-wrap{
+    position: relative;
+    width: 1170px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: rgb(167, 163, 163) 5px 5px 20px;
+}
+
+#sidebar-wrap{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 330px;
+    height: 512px;
+    box-shadow: rgb(167, 163, 163) 5px 5px 20px;
+}

@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-appearance:none;
+    font-family: dashicons, 'Segoe UI', 'WenQuanYi Micro Hei', 'WenQuanYi Micro Hei Mono', 'Microsoft Yahei', 'Microsoft Yahei Mono', 微软雅黑, sans-serif;
+}
+input,button,select,textarea{outline:none}
+html{height: 100%}
+body{
+    height: 100%;
+    background-color: #eee;
+    background-repeat: repeat-x;
+}
+
+h1{
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+ul{
+    list-style: none;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.hf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav-top{
+    width: 100%;
+    height: auto;
+    color:#34495e;
+    background-image: -webkit-linear-gradient(top,#fcfdfe,#f8f9fa);
+    background-image: -moz-linear-gradient(top,#fcfdfe,#f8f9fa);
+    background-image: linear-gradient(top,#fcfdfe,#f8f9fa);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #ddebf4;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .2);
+}
+
+#nav-top .active a{
+    color:#1abc9c !important;
+}
+
+#nav-top a{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nav-top a:link{
+    color:#34495e;
+}
+
+#nav-top a:visited{
+    color:#34495e;
+}
+
+#nav-top a:hover{
+    color:#1abc9c;
+}
+
+#nav-top a:active{
+    color:#1abc9c;
+}
+
+#nav-top li{
+    display: inline-block;
+}
+
+.nav-top-content{
+    width: 1170px;
+    height: 60px;
+    text-align:center;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+.nav-top-content li{
+    width: 60px;
+}
+
+.nav-top-logo{
+    width:200px;
+    height: 60px;
+    text-align: left;
+}
+
+.nav-top-item{
+    
+}
+
+.nav-top-login{
+
+}
+
+.title-sep{
+    background-color: rgba(0,0,0,0.10);
+    height: 1px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#footer-wrap{
+    margin-top: 40px;
+    background-color: #34495E;
+    width: 100%;
+    height: 350px;
+    color: white;
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, .2);
+}
+
+#footer-wrap a:link{
+    color: white;
+}
+
+#footer-wrap a:visited{
+    color: white;
+}
+
+#footer-wrap a:hover{
+    color: #CC3366;
+}
+
+#footer-wrap a:active{
+    color: white;
+}
+
+#footer-wrap h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.footer-contact-container p{
+    margin-bottom: 20px;
+}
+
+.footer-item-container p{
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+.footer-content div{
+    width: 280px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.footer-item-container{
+    
+}
+
+.footer-content{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer-rights-container{
+    width: 1170px;
+    margin: 0 auto;
+}
