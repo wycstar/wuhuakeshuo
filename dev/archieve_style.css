@@ -1,11 +1,16 @@
 .content-wrap{
     position: relative;
     width: 1170px;
+<<<<<<< HEAD
     height: auto;
+=======
+    height: 1000px;
+>>>>>>> e780c8b961a9b86f9e22688f3d609bb0a0386ab5
     margin-left: auto;
     margin-right: auto;
     background-color: white;
     box-shadow: rgb(167, 163, 163) 5px 5px 20px;
+<<<<<<< HEAD
     padding-bottom: 1px;
 }
 
@@ -63,4 +68,6 @@
 
 .arch-title a:hover{
     color: #990033;
+=======
+>>>>>>> e780c8b961a9b86f9e22688f3d609bb0a0386ab5
 }
