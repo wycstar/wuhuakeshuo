@@ -1,0 +1,66 @@
+.content-wrap{
+    position: relative;
+    width: 1170px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: rgb(167, 163, 163) 5px 5px 20px;
+    padding-bottom: 1px;
+}
+
+.title-year-wrap{
+    margin: 100px auto; 
+    width: 950px;
+    height: auto;
+}
+
+.year{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 5px;
+    background-color: #777;
+    width: 84px;
+    padding: 4px 5px;
+}
+
+.arch-title{
+    margin-top: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    height: auto;
+    width: 900px;
+    padding: 10px 25px;
+}
+
+.arch-title li{
+    color: #777;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.arch-title a{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.arch-title a:link{
+    color: #22A386;
+}
+
+.arch-title a:visited{
+    color: #22A386;
+}
+
+.arch-title a:hover{
+    color: #990033;
+}
+
+.arch-title a:hover{
+    color: #990033;
+}
